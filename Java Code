@@ -1,0 +1,30 @@
+import java.util.*;
+import java.util.*;
+import java.util.*;
+class Main
+{
+   public static void main(int []stones
+   {
+      PriorityQueue<Integer> pq = new PriorityQueue(Collections.reverseOrder());
+      for(Integer stone : stones)
+        pq.add(stone);
+        
+       while(pq.size()>1)
+        pq.add(pq.poll()-pq.poll());
+        
+        return pq.peek();
+   }
+
+  public static void main(String []args)
+  {
+    Scanner sc = new Scanner(System.in);
+    int arrSize = sc.nextInt();
+    int arr[] = new int[arrSize];
+    
+    for(int i=0; i<arrSize; i++)
+      arr[i] = sc.nextInt();
+      
+      int result = 
+      System.out.println(result);
+  }
+}
